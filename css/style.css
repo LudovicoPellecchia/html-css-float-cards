@@ -1,0 +1,65 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-family: 'Comic Neue', cursive;
+    font-family: 'Roboto', sans-serif;
+}
+.container{
+    margin: auto;
+    max-width: 1080px;
+}
+
+.title{
+    font-size: 50px;
+    font-weight:900;
+    color: #E53170;
+    text-align: center;
+    margin-bottom: 50px;
+}
+.description{
+    font-size: 20px;
+}
+
+header{
+    margin-bottom: 60px;
+}
+
+.clearfix::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
+.profile{
+    border-right: 20px solid white;
+    margin-bottom: 50px;
+    width: 33%;
+    float: left;
+    background-color: black;
+    color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.info{
+    line-height: 30px;
+    float: left;
+}
+
+.profile-pic{
+    float: left;
+    height: 120px;
+}
+
+.email{
+    color: #1BA1E3;
+    text-decoration: none;
+}
+
+.cazz{
+    width: 33%;
+}
